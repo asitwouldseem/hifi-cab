@@ -617,7 +617,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x03"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -626,14 +626,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x03"
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -659,7 +659,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -686,9 +686,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x03_1_1"
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 1.27)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -696,18 +696,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -725,18 +713,6 @@
 				(polyline
 					(pts
 						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -771,17 +747,6 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 0 0)
 					(radius 0.635)
 					(stroke
@@ -804,7 +769,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -822,7 +787,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -832,24 +797,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1480,7 +1427,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Converter_DCDC:TSR1-2433E"
+		(symbol "Converter_DCDC:TSR1-2450E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1493,7 +1440,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TSR1-2433E"
+			(property "Value" "TSR1-2450E"
 				(at -3.81 6.35 0)
 				(effects
 					(font
@@ -1521,7 +1468,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A step-down regulator, fixed 3.3V output voltage, 6-36V input voltage, TO-220 compatible LM78xx replacement"
+			(property "Description" "1A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1548,7 +1495,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TSR1-2433E_0_1"
+			(symbol "TSR1-2450E_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -2.54)
@@ -1561,7 +1508,7 @@
 					)
 				)
 			)
-			(symbol "TSR1-2433E_1_1"
+			(symbol "TSR1-2450E_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -3620,16 +3567,6 @@
 		)
 		(uuid f33dac68-a093-49a3-835d-b4a2d8965f98)
 	)
-	(text "5V BUS AT 0V IF POWERED >5V.\nMODULES MUST USE 3.3V."
-		(exclude_from_sim no)
-		(at 196.088 59.182 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "42304393-47b1-482b-b1bb-93a856835411")
-	)
 	(junction
 		(at 85.09 90.17)
 		(diameter 0)
@@ -3683,6 +3620,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "587e11a6-fe2f-4c2b-a2ae-8c10c89e69f7")
+	)
+	(junction
+		(at 181.61 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb7cfa2-346b-4d3e-87a5-dbe2ff12c88e")
 	)
 	(junction
 		(at 255.27 41.91)
@@ -3745,28 +3688,22 @@
 		(uuid "bab6a2ad-5c4a-4b23-9d53-bcccfdc964f2")
 	)
 	(junction
-		(at 194.31 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf791ade-9b10-4162-bc9f-c1f5c0ff60d8")
-	)
-	(junction
 		(at 208.28 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4a84800-fd78-433e-9b52-615b2faab32a")
 	)
 	(junction
+		(at 209.55 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cca1aaba-c56d-4e31-be6d-3d027fe46f38")
+	)
+	(junction
 		(at 83.82 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d31ab2db-e576-4054-a8fb-b7c4b20f795e")
-	)
-	(junction
-		(at 189.23 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da70d53e-faa1-49d6-839c-578ec9f760ae")
 	)
 	(junction
 		(at 142.24 176.53)
@@ -4014,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 34.29) (xy 209.55 26.67)
+			(xy 209.55 34.29) (xy 209.55 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4194,6 +4131,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 68.58) (xy 195.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47150bb1-1438-4a98-a980-e663cd5e3780")
+	)
+	(wire
+		(pts
 			(xy 154.94 124.46) (xy 154.94 116.84)
 		)
 		(stroke
@@ -4211,6 +4158,16 @@
 			(type default)
 		)
 		(uuid "48fca1c2-71be-455b-bb47-8dba2729bdae")
+	)
+	(wire
+		(pts
+			(xy 209.55 29.21) (xy 209.55 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4937ecf8-fbed-4756-8e11-1ca1d87326c9")
 	)
 	(wire
 		(pts
@@ -4261,6 +4218,16 @@
 			(type default)
 		)
 		(uuid "575a8ab8-ac2a-4428-bba5-09da6f86b31a")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f7dbcb-6f7c-47e8-a56d-80b0f77b5274")
 	)
 	(wire
 		(pts
@@ -4414,13 +4381,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 77.47) (xy 189.23 72.39)
+			(xy 195.58 77.47) (xy 195.58 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7446e203-dad1-4562-9875-e26aaffa5a24")
+		(uuid "72a177bc-7f12-4abe-9f2e-c5ef449a3ba0")
 	)
 	(wire
 		(pts
@@ -4441,16 +4408,6 @@
 			(type default)
 		)
 		(uuid "76296059-25b4-49fe-9ccc-886e2735d7e9")
-	)
-	(wire
-		(pts
-			(xy 198.12 77.47) (xy 189.23 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772e1a18-51d8-4904-a91c-00974f53a1b4")
 	)
 	(wire
 		(pts
@@ -4544,26 +4501,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 72.39) (xy 194.31 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877d409b-6893-4337-9639-c48960f2c144")
-	)
-	(wire
-		(pts
-			(xy 194.31 74.93) (xy 194.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ab2bbc4-1d37-4909-842e-11c4c4d6824a")
-	)
-	(wire
-		(pts
 			(xy 77.47 107.95) (xy 77.47 110.49)
 		)
 		(stroke
@@ -4654,6 +4591,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 74.93) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a453b53e-57ac-46b8-85d1-7b262a3e0b2d")
+	)
+	(wire
+		(pts
 			(xy 74.93 105.41) (xy 77.47 105.41)
 		)
 		(stroke
@@ -4711,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "b2ede731-2a1b-4339-a17f-c0ae81c2662c")
-	)
-	(wire
-		(pts
-			(xy 194.31 88.9) (xy 194.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41308ea-07e0-4fcf-8e7e-4f0ec86137ba")
 	)
 	(wire
 		(pts
@@ -4814,16 +4751,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 189.23 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0eca087-f67b-4961-8e41-c8e3191a501c")
-	)
-	(wire
-		(pts
 			(xy 240.03 129.54) (xy 240.03 120.65)
 		)
 		(stroke
@@ -4841,16 +4768,6 @@
 			(type default)
 		)
 		(uuid "cb34ad0f-695c-4397-a65c-a0576d69fc83")
-	)
-	(wire
-		(pts
-			(xy 194.31 80.01) (xy 198.12 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3e4c0c-a3ff-4695-895d-9385d79c6632")
 	)
 	(wire
 		(pts
@@ -4884,7 +4801,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 26.67) (xy 181.61 34.29)
+			(xy 181.61 26.67) (xy 181.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4911,6 +4828,16 @@
 			(type default)
 		)
 		(uuid "dd59c922-3b06-4438-bc79-265541c4b752")
+	)
+	(wire
+		(pts
+			(xy 181.61 29.21) (xy 181.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdc5c1d-20ab-4ac9-99c5-9764e0b6ce14")
 	)
 	(wire
 		(pts
@@ -4991,16 +4918,6 @@
 			(type default)
 		)
 		(uuid "ed4983aa-10e7-4009-bc05-5954101625d7")
-	)
-	(wire
-		(pts
-			(xy 198.12 74.93) (xy 194.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00edebf-1730-444e-aa9f-4530d5f14194")
 	)
 	(wire
 		(pts
@@ -5836,16 +5753,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 88.9 0)
+		(at 195.58 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a16fe61-f3d3-4406-8fff-61aa19128d33")
-		(property "Reference" "#PWR028"
-			(at 194.31 95.25 0)
+		(uuid "075e93d1-6141-4e47-a3bd-05cd82a68f6d")
+		(property "Reference" "#PWR029"
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 93.98 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 88.9 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +5788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 88.9 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +5797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 88.9 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,12 +5806,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "64033e02-e199-4639-a3d4-7f5e6a1a78c6")
+			(uuid "e571a06b-8e31-464c-b18f-4a3125602497")
 		)
 		(instances
-			(project ""
+			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR028")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 209.55 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "092553ca-60fa-4f16-b436-366e8f8c3436")
+		(property "Reference" "#FLG02"
+			(at 207.645 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 205.74 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49a1694e-6212-415f-9f0f-763fd8d03445")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6033,72 +6018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 189.23 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f784fde-18eb-4501-aaa8-d1513591e8cb")
-		(property "Reference" "#PWR029"
-			(at 189.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5f79b0b-56ab-4d7a-9039-120285e4836c")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 139.7 0)
 		(unit 1)
@@ -6163,6 +6082,76 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 203.2 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15ad334c-00e8-4338-ac66-7cbe0c6838d8")
+		(property "Reference" "J12"
+			(at 205.74 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR IN"
+			(at 205.74 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7050c015-eb83-46a5-9488-7dc11c49ae8c")
+		)
+		(pin "2"
+			(uuid "3d278c27-6c3d-46fb-ad8d-062402589c98")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6431,145 +6420,6 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 209.55 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23f21640-746c-4003-a607-a1e1a027e136")
-		(property "Reference" "#PWR013"
-			(at 209.55 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 209.55 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.55 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d46c240-4131-4763-a655-57aa04e8f16e")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 203.2 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "255f710d-61cc-4099-b3d4-39a74eeb40ba")
-		(property "Reference" "J12"
-			(at 205.74 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "POWER IN"
-			(at 205.74 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83f88ae0-48d7-48bb-980d-561ba79a9fc5")
-		)
-		(pin "2"
-			(uuid "4034ff26-e9a5-495b-817f-b5cd1e9cdcfa")
-		)
-		(pin "3"
-			(uuid "7362b843-22ba-4435-9b4d-bd02150463cf")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7043,74 +6893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 194.31 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "415fb19f-bef1-4bd7-898c-1fb3c2aeeace")
-		(property "Reference" "#FLG01"
-			(at 196.215 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 198.12 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ad23982-ced3-433f-be5c-8fbcf6b8614b")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_A")
 		(at 77.47 95.25 0)
 		(unit 1)
@@ -7187,6 +6969,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c041ce-00f8-4e55-8096-051bffbdca16")
+		(property "Reference" "#PWR013"
+			(at 209.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa14133d-b3ae-4b9b-85d9-bad0eab4ba21")
+		)
+		(instances
+			(project ""
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 39.37 38.1 90)
 		(unit 1)
@@ -7255,85 +7103,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 189.23 72.39 270)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 72.39 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c2ccc72-98fb-4113-abda-fa3c64e428f5")
-		(property "Reference" "#FLG02"
-			(at 191.135 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 189.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29b23b2a-7c9b-4ffc-9958-d6881fb539b8")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 72.39 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51458e5c-9b0c-4675-8f73-13cd169618b5")
 		(property "Reference" "J7"
-			(at 72.39 153.67 0)
+			(at 72.39 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7120,7 @@
 			)
 		)
 		(property "Value" "IR REMOTE"
-			(at 72.39 156.21 0)
+			(at 72.39 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 165.1 0)
+			(at 72.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7137,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 165.1 0)
+			(at 72.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,8 +7145,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 165.1 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 72.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,6 +7588,74 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 181.61 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6013286c-dca6-4a9a-affd-888b98f5f520")
+		(property "Reference" "#FLG01"
+			(at 179.705 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 177.8 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2c44ec-5b6d-4633-bc70-ef4504f81b4a")
+		)
+		(instances
+			(project ""
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8827,72 +8674,6 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 194.31 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "967bf0f6-fb6b-4b51-84cd-6b1cff980aee")
-		(property "Reference" "#PWR030"
-			(at 194.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 194.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 194.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6f6011f-6348-4aee-9c4b-626cdb30b7f5")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
 		(at 110.49 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9502,7 +9283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Converter_DCDC:TSR1-2433E")
+		(lib_id "Converter_DCDC:TSR1-2450E")
 		(at 195.58 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9546,7 +9327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A step-down regulator, fixed 3.3V output voltage, 6-36V input voltage, TO-220 compatible LM78xx replacement"
+		(property "Description" "1A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement"
 			(at 195.58 36.83 0)
 			(effects
 				(font
@@ -9777,6 +9558,72 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcba8776-7163-4c93-a05e-855352acac30")
+		(property "Reference" "#PWR028"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b9d4d0d-c052-469a-b9c8-a9e62d622aa2")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
