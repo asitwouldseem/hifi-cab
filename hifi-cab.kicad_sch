@@ -6062,7 +6062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14654a2e-c852-4b7f-b277-45e604952cc4")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 210.82 138.4299 0)
 			(effects
 				(font
@@ -6116,7 +6116,7 @@
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6418,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 147.32 126.238 90)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f44bb16-e16c-48c5-9c21-6018e5c04e44")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 86.36 162.56 90)
 			(effects
 				(font
@@ -6951,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 86.36 169.418 90)
 			(effects
 				(font
@@ -6987,7 +6987,7 @@
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9808,7 +9808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e512e10d-1300-49c8-a44c-a8cf45207536")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 152.4 154.9399 0)
 			(effects
 				(font
@@ -9826,7 +9826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.638 156.21 90)
 			(effects
 				(font
@@ -9862,7 +9862,7 @@
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9960,7 +9960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 146.05 66.548 90)
 			(effects
 				(font
