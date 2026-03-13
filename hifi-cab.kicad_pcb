@@ -1530,7 +1530,7 @@
 			)
 		)
 		(property "Value" "FAN 1"
-			(at 0 4.1 0)
+			(at 0.1 3.58 0)
 			(layer "F.SilkS")
 			(uuid "e709070d-aaea-495f-981b-ae666d236041")
 			(effects
