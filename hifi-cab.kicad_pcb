@@ -134,14 +134,14 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "119e7ad8-be3f-4790-8c9f-c440f6650188")
-		(at 228.6 63.3)
+		(at 97.45 58.275)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J7"
 			(at 3.75 -3.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "deb0559a-5b02-4e37-9865-8aec2df6d3ca")
+			(uuid "01b2d6ec-4e39-412d-9f9c-aa2971c513bf")
 			(effects
 				(font
 					(size 1 1)
@@ -152,7 +152,7 @@
 		(property "Value" "IR REMOTE"
 			(at 3.75 5 0)
 			(layer "F.SilkS")
-			(uuid "cab25764-e312-4e3f-8ad3-e1a1756498ea")
+			(uuid "4abaf148-ae83-4cf0-8271-abf4f4ce3de8")
 			(effects
 				(font
 					(size 1 1)
@@ -164,7 +164,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67e58a53-8a32-42c3-ab16-5bc053ee4a80")
+			(uuid "39d5d98f-3c40-448f-857e-451166db1a58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +176,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f36f295e-cb09-435c-8056-2d48c84b1d44")
+			(uuid "eb5c5b3d-eb9b-41be-88e1-58f7a41ca217")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +573,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "27a65013-52d2-4d0f-9678-95197c323fb0")
-		(at 232.64 52.34)
+		(at 101.49 47.315)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
@@ -2742,14 +2742,14 @@
 	(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6be86d83-d2b7-4d3c-a2cf-caca80c51c7e")
-		(at 214.2 63.3)
+		(at 83.05 58.275)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J11"
 			(at 3.75 -3.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "adbeabf1-2b2d-4465-84f0-b2eec01d417d")
+			(uuid "1e2e0c27-e751-43d9-a763-8781bd75be67")
 			(effects
 				(font
 					(size 1 1)
@@ -2760,7 +2760,7 @@
 		(property "Value" "RS-232"
 			(at 3.8 5.1 0)
 			(layer "F.SilkS")
-			(uuid "fed3dd3f-85ac-4773-8cc8-053261813538")
+			(uuid "5b9885d2-a1d6-4216-bc4a-90c06e5c366e")
 			(effects
 				(font
 					(size 1 1)
@@ -2772,7 +2772,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "932960b2-adef-4ca7-9ea8-ed514d98eb86")
+			(uuid "f62c547a-f0bf-4264-a13f-189a75f5db5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a9ae769-6e4b-4d15-b125-a4de797b81dc")
+			(uuid "fc0d0f3e-4439-437c-abaa-f4d9ead26277")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,14 +3051,14 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "71071caa-856a-4fe9-a693-838ae4d4792f")
-		(at 243.1 63.3)
+		(at 111.95 58.275)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J10"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "eb46c470-0f85-4b11-a340-da61d0ae7775")
+			(uuid "df464cf9-e433-469d-98b8-4bd6975824b5")
 			(effects
 				(font
 					(size 1 1)
@@ -3069,7 +3069,7 @@
 		(property "Value" "BUTTON"
 			(at 1.25 5 0)
 			(layer "F.SilkS")
-			(uuid "09f3231a-2668-49b5-9274-07d17953b42d")
+			(uuid "922d9e6f-fb36-4d93-9ebb-d190f0e96cf9")
 			(effects
 				(font
 					(size 1 1)
@@ -3081,7 +3081,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a41544c-b0bd-40d1-8d4c-f8f2f71c808b")
+			(uuid "32d0dcfd-52f5-4c86-8e95-d44e1d8e5e75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3093,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dbb5174-a968-461c-a52b-6800f85656a7")
+			(uuid "d81f0ae7-890b-460c-9f74-a8d05374af13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7d7bca39-5fc8-4ac9-9286-8a8df1312ca9")
-		(at 228.14 51.44)
+		(at 96.99 46.415)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -3712,7 +3712,7 @@
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0c8901ef-58e0-4909-aa93-492bf70fc678")
+			(uuid "afe2718d-bd96-4bf0-a578-bda8fca497ea")
 			(effects
 				(font
 					(size 1 1)
@@ -3723,7 +3723,7 @@
 		(property "Value" "PWR IN"
 			(at 1.3 5 0)
 			(layer "F.SilkS")
-			(uuid "afc015c7-24df-42ce-b2a5-2002cf306d4b")
+			(uuid "a24969c6-165e-45a6-9671-57f1bac93fe3")
 			(effects
 				(font
 					(size 1 1)
@@ -3735,7 +3735,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fe6f727-7ee4-4493-909a-765fbfe96109")
+			(uuid "5a718341-21c7-4481-850d-56041cd2db9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3747,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52cd9929-0cd1-4319-a431-a617a4b1b5c1")
+			(uuid "51330b01-2106-4b40-b77f-8fc83fc1e3d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +3992,7 @@
 	(footprint "esp32-wemos-d1-mini:esp32-wemos-d1-mini"
 		(layer "F.Cu")
 		(uuid "83157a5b-6792-47cf-b787-4d54a76bab76")
-		(at 166.17 43.15)
+		(at 165.4 43.26)
 		(property "Reference" "U1"
 			(at -3.81 1.27 0)
 			(layer "F.SilkS")
@@ -6769,7 +6769,7 @@
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "747fba45-67b3-4264-ba8c-42500985f397")
+			(uuid "981c4683-caac-4008-8169-bab262e7d3bd")
 			(effects
 				(font
 					(size 1 1)
@@ -6781,7 +6781,7 @@
 			(at 0 -6.4 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "964edc6a-8577-4183-a5a6-ebc8ee922f14")
+			(uuid "dcfdb5cb-c463-4aad-93e5-be4a2a6d1d5b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -6793,7 +6793,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb5c304e-5e6e-4b94-97db-401d3580930a")
+			(uuid "080e7ecd-bd83-40ca-a477-c5fa4e990be8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6805,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcac550c-1950-4f7c-afa8-b11211214693")
+			(uuid "a03bafc5-6470-4de9-991c-64cd0800a7de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6995,7 @@
 			(at 1.7 -4.21 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "72fff78b-84f1-427c-81d4-6f43cc4fb86a")
+			(uuid "99c22886-b272-4647-aff7-9c3ae55ea624")
 			(effects
 				(font
 					(size 1 1)
@@ -7006,7 +7006,7 @@
 		(property "Value" "TSR1-2433E"
 			(at 3.2175 2.64 90)
 			(layer "F.SilkS")
-			(uuid "6c6f1993-82cd-432d-bf29-1d124c71f6b5")
+			(uuid "6e28e95b-821b-4d6f-97b1-9f8947ad4715")
 			(effects
 				(font
 					(size 1 1)
@@ -7018,7 +7018,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7b28bc1-7bfc-44e8-a572-9f24d3c4ec2f")
+			(uuid "981f6c15-2e65-4553-a428-5e689294d5a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +7030,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "074d4c74-f6bf-4c6a-a65e-bbc0218043e0")
+			(uuid "c7ab623e-2cc0-4b2f-b7f3-1961d014aafa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7197,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b1e948d5-59c9-47ed-b812-01a0e4106cfe")
-		(at 242.1 51.44)
+		(at 110.95 46.415)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -7767,14 +7767,14 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bf85f317-f613-48a9-b1b4-81615dcb56c9")
-		(at 242.1 55.6 180)
+		(at 110.95 50.575 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "366fdf1d-30a9-4f17-882e-1e93899badb9")
+			(uuid "1e23c1f4-2a07-4ffe-9794-7a7ecef623b7")
 			(effects
 				(font
 					(size 1 1)
@@ -7785,7 +7785,7 @@
 		(property "Value" "4K7"
 			(at 0.1 -1.8 0)
 			(layer "F.SilkS")
-			(uuid "c696acbf-88e3-47e7-8e51-8c1c1ca6c731")
+			(uuid "3a73dada-c280-4046-8906-0caacd68dc1d")
 			(effects
 				(font
 					(size 1 1)
@@ -7797,7 +7797,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f47304ab-565e-47c1-a748-f5c88b865666")
+			(uuid "d349da27-45b9-48de-8ffb-dd9f0944c5cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7809,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19a13074-40d9-4871-92ff-089cc1feb8f2")
+			(uuid "c5a737c6-b4e1-4070-bf6d-98cd7a22ac56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,14 +7909,14 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ca89c33e-c974-4e0d-91a6-079fff96e040")
-		(at 252.4 63.3)
+		(at 121.25 58.275)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J8"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "07fadde5-173c-4977-bb72-5cfc4ff4269f")
+			(uuid "ee868fb9-fd09-479e-98c4-8b22cc1e25dd")
 			(effects
 				(font
 					(size 1 1)
@@ -7927,7 +7927,7 @@
 		(property "Value" "DS18B20"
 			(at 2.55 5.1 0)
 			(layer "F.SilkS")
-			(uuid "6842497c-53a0-43da-a6ef-6706b720d49f")
+			(uuid "186827ae-d666-4401-8e5d-969b7499869a")
 			(effects
 				(font
 					(size 1 1)
@@ -7939,7 +7939,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcdbe11e-52fb-4104-947a-8643f9c2b69f")
+			(uuid "58fecfb5-8467-4b1e-8774-616f8a481d7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7951,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1295b2db-ddad-4853-b27b-effa187a2eb4")
+			(uuid "c51253c2-2aae-4d4d-a755-06dce527246b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,14 +8207,14 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cbde6de4-1d02-463c-a3fa-1b7df871b789")
-		(at 252.4 56.2)
+		(at 121.25 51.175)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J9"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9233e9ef-07fd-48dc-887b-2bee79afe61b")
+			(uuid "dbf202ed-ba50-49be-bd48-7644a3eb221f")
 			(effects
 				(font
 					(size 1 1)
@@ -8226,7 +8226,7 @@
 			(at 2.5 4.6 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcccfe19-3feb-4709-befe-6be99d909808")
+			(uuid "2139c4e8-6711-48e9-ab39-24b4c99c46c9")
 			(effects
 				(font
 					(size 1 1)
@@ -8238,7 +8238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc34c363-8e57-4e93-8e99-035f769adeb8")
+			(uuid "09057580-ea67-474c-ad16-e45fd0d32a59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8250,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1db81e69-daa0-4559-932f-356a0c336b8b")
+			(uuid "ae3a8a60-9f00-4172-a4f4-835e4bb22d66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,14 +8506,14 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e5a842c3-ef47-46d5-97ce-3b51d6b2e470")
-		(at 228.14 55.6)
+		(at 96.99 50.575)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "06859297-1283-4718-a7bd-0d6ae16d6cda")
+			(uuid "23dc5c9d-4cef-4c6b-9ae5-f0db7a2d3c6c")
 			(effects
 				(font
 					(size 1 1)
@@ -8524,7 +8524,7 @@
 		(property "Value" "10K"
 			(at 0 1.8 0)
 			(layer "F.SilkS")
-			(uuid "11c1d5a1-4359-4756-8aad-2ddf18a0797c")
+			(uuid "c16baf98-96a8-41e2-8092-0b70b60f4afc")
 			(effects
 				(font
 					(size 1 1)
@@ -8536,7 +8536,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eee63e8e-6bb2-4f05-a37a-b9e08a1ae3d6")
+			(uuid "7da764c6-291a-4c2d-b925-1fb7588032e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +8548,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9322c47-237b-425b-bccf-2afc1bc891aa")
+			(uuid "7b8e5831-1f9e-456b-9e43-ddee8716519d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8652,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ee6ceeb5-2e35-41ea-99bd-6a037dc13e8b")
-		(at 236.1 56.28 90)
+		(at 104.95 51.255 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R9"
@@ -9106,7 +9106,7 @@
 		)
 	)
 	(gr_text "TX"
-		(at 216.7 60.3 90)
+		(at 85.55 55.275 90)
 		(layer "F.SilkS")
 		(uuid "017e6030-31c3-42ff-b8a3-4cd1f5c22f20")
 		(effects
@@ -9118,19 +9118,19 @@
 		)
 	)
 	(gr_text "-"
-		(at 257.4 53.3 90)
+		(at 126.25 48.275 90)
 		(layer "F.SilkS")
 		(uuid "042099e2-4824-412d-94c1-168fc8c8faed")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1.2 1.2)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
 	)
 	(gr_text "-"
-		(at 231.1 60.3 90)
+		(at 99.95 55.275 90)
 		(layer "F.SilkS")
 		(uuid "3e36395a-45a7-47c9-8e39-2c21bb573139")
 		(effects
@@ -9142,7 +9142,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 221.7 60.2 90)
+		(at 90.55 55.175 90)
 		(layer "F.SilkS")
 		(uuid "422d49cd-b60b-408a-98de-24ef894a1cd9")
 		(effects
@@ -9154,7 +9154,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 236 60.3 90)
+		(at 104.85 55.275 90)
 		(layer "F.SilkS")
 		(uuid "42d04133-9d4d-40c2-9bbd-ebdef6200799")
 		(effects
@@ -9166,13 +9166,13 @@
 		)
 	)
 	(gr_text "DATA"
-		(at 254.8 53.3 90)
+		(at 123.65 48.275 90)
 		(layer "F.SilkS")
 		(uuid "47037cfa-be5b-413d-83c9-0755d0ef5c09")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1.2 1.2)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
@@ -9201,7 +9201,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 228.5 60.3 90)
+		(at 97.35 55.275 90)
 		(layer "F.SilkS")
 		(uuid "a2fc3313-ee47-4f2d-8294-cac07224cdbe")
 		(effects
@@ -9213,7 +9213,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 233.4 60.3 90)
+		(at 102.25 55.275 90)
 		(layer "F.SilkS")
 		(uuid "a980a4a4-b973-4ac6-a891-d53925d8565c")
 		(effects
@@ -9225,7 +9225,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 214.1 60.3 90)
+		(at 82.95 55.275 90)
 		(layer "F.SilkS")
 		(uuid "c55280c2-e81c-4c57-8033-2e03e7d449fb")
 		(effects
@@ -9237,7 +9237,7 @@
 		)
 	)
 	(gr_text "RX"
-		(at 219.3 60.3 90)
+		(at 88.15 55.275 90)
 		(layer "F.SilkS")
 		(uuid "caa0ebf4-8fbb-46a2-a103-5eb01897c997")
 		(effects
@@ -9249,13 +9249,13 @@
 		)
 	)
 	(gr_text "+"
-		(at 252.3 53.3 90)
+		(at 121.15 48.275 90)
 		(layer "F.SilkS")
 		(uuid "ce840e8d-394f-4722-9f0a-40c0c885507d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1.2 1.2)
+				(thickness 0.15)
 			)
 			(justify left)
 		)
@@ -9489,8 +9489,8 @@
 		(uuid "f2335e7c-e567-4388-82b7-2161b5a545e2")
 	)
 	(segment
-		(start 236.14 56.32)
-		(end 236.1 56.28)
+		(start 104.99 51.295)
+		(end 104.95 51.255)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 14)
