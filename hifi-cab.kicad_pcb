@@ -2774,7 +2774,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0ea74762-a958-456b-90fd-53c1f94e77f8")
-		(at 127.1 120.9)
+		(at 125.7 115 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.65 0)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "3cfd220e-45d9-4ae9-acf0-fc9544bb3e61")
 			(effects
@@ -2830,16 +2830,6 @@
 		(sheetfile "hifi-cab.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a2364f8c-ec31-4bfc-8058-0490bfb3102f")
-		)
-		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
 			(stroke
@@ -2848,6 +2838,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "be206b79-167f-4bef-8992-7c8049e0ea4d")
+		)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2364f8c-ec31-4bfc-8058-0490bfb3102f")
 		)
 		(fp_rect
 			(start -1.85 -0.95)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1 0)
+			(at -1 0 180)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
@@ -2892,7 +2892,7 @@
 			(uuid "b7056477-f6c8-4ee2-9aae-62c067fb3c37")
 		)
 		(pad "2" smd roundrect
-			(at 1 0)
+			(at 1 0 180)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
@@ -5439,7 +5439,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "89e80b1a-8256-4716-aba5-5700100e4a0b")
-		(at 127.1 117.95)
+		(at 125.7 111.4 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
@@ -5455,7 +5455,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.65 0)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "84deae95-88f5-491f-a296-7d0c380c82c9")
 			(effects
@@ -5495,16 +5495,6 @@
 		(sheetfile "hifi-cab.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c6a6157-5430-47b1-996f-099084024965")
-		)
-		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
 			(stroke
@@ -5513,6 +5503,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "9614a361-358c-42f6-a699-0dc150e0804b")
+		)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c6a6157-5430-47b1-996f-099084024965")
 		)
 		(fp_rect
 			(start -1.85 -0.95)
@@ -5548,7 +5548,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1 0)
+			(at -1 0 180)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
@@ -5557,7 +5557,7 @@
 			(uuid "913c50ed-e11d-471b-9960-ec5defacfdcb")
 		)
 		(pad "2" smd roundrect
-			(at 1 0)
+			(at 1 0 180)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
@@ -8232,6 +8232,102 @@
 		(uuid "9070402c-2435-41f1-9c43-a622bbe6e175")
 	)
 	(segment
+		(start 124.65 115.05)
+		(end 123.75 114.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "65e21d90-a394-4e96-825d-e835e760cac6")
+	)
+	(segment
+		(start 111.6 108.4)
+		(end 112.5 109.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "9bfee984-4fb1-4fee-b185-dad61d6bf685")
+	)
+	(segment
+		(start 126.65 108.35)
+		(end 127.55 109.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "a2eaab8e-e0da-4d9f-967a-92603d130c63")
+	)
+	(segment
+		(start 127.55 109.25)
+		(end 128.75 109.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "a4f52063-9eb7-4a1a-adf3-93aed42df646")
+	)
+	(segment
+		(start 123.75 114.15)
+		(end 122.55 114.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "b07b47b3-7544-4e8a-987a-44fce82f8f0c")
+	)
+	(segment
+		(start 109.65 115.15)
+		(end 108.75 114.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "e99ee276-3022-4aff-9f90-8701ae7339f7")
+	)
+	(segment
+		(start 108.75 114.25)
+		(end 107.55 114.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "f8a44ae0-c88e-402f-925c-9b7869a7cbfe")
+	)
+	(segment
+		(start 112.5 109.3)
+		(end 113.7 109.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "fecbba8e-5e29-4e59-a981-0e257c894545")
+	)
+	(via
+		(at 128.75 109.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "370c7f36-092e-4c82-b554-9d7ece47f7e6")
+	)
+	(via
+		(at 107.55 114.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "37379d24-f763-4c10-b4ec-32c37f292af1")
+	)
+	(via
+		(at 122.55 114.15)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "93e26ef7-851b-47e4-aed3-28e288f2fa9a")
+	)
+	(via
+		(at 113.7 109.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "a71832bd-cb61-4037-a7c5-6133df368f75")
+	)
+	(segment
 		(start 109.7 108.4)
 		(end 109.7 111.4)
 		(width 0.2)
@@ -8246,6 +8342,14 @@
 		(layer "F.Cu")
 		(net 19)
 		(uuid "2c8453b2-7fbb-4de6-ac03-5e299c036d33")
+	)
+	(segment
+		(start 126.7 111.4)
+		(end 126.7 115)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 20)
+		(uuid "2ea094ee-72ac-472f-b75c-62b47bf496db")
 	)
 	(segment
 		(start 125.7 106.525)
@@ -8294,6 +8398,22 @@
 		(layer "B.Cu")
 		(net 46)
 		(uuid "aedbf7f4-f664-4867-86ff-c4ac911fb76d")
+	)
+	(segment
+		(start 124.75 111.35)
+		(end 124.7 111.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 47)
+		(uuid "17d945c3-9415-4607-a88e-d625490bc383")
+	)
+	(segment
+		(start 124.75 108.4)
+		(end 124.75 111.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 47)
+		(uuid "257956d6-3fbf-4528-b834-026729882c17")
 	)
 	(embedded_fonts no)
 )
