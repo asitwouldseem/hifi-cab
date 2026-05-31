@@ -3845,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 162.56) (xy 85.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21659fd5-9605-4107-8925-5c0ceef63932")
+	)
+	(wire
+		(pts
 			(xy 73.66 97.79) (xy 73.66 99.06)
 		)
 		(stroke
@@ -4065,16 +4075,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 165.1) (xy 85.09 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dac3315-1df6-4ded-a8de-5d437f4dc7ff")
-	)
-	(wire
-		(pts
 			(xy 93.98 92.71) (xy 93.98 107.95)
 		)
 		(stroke
@@ -4242,16 +4242,6 @@
 			(type default)
 		)
 		(uuid "7dccd9d3-d79e-456f-9986-52d12d756d44")
-	)
-	(wire
-		(pts
-			(xy 76.2 162.56) (xy 86.36 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f116931-0a00-4b17-8ff9-929b8dad74bd")
 	)
 	(wire
 		(pts
@@ -4445,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 162.56) (xy 85.09 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d2a14f-b273-49d6-93d2-af506ce1210a")
+	)
+	(wire
+		(pts
 			(xy 38.1 162.56) (xy 40.64 162.56)
 		)
 		(stroke
@@ -4492,16 +4492,6 @@
 			(type default)
 		)
 		(uuid "c1feb69d-5f3c-48c3-a577-b5ce1509b7e9")
-	)
-	(wire
-		(pts
-			(xy 85.09 165.1) (xy 85.09 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c292f4d7-debb-45a6-be97-bb66ddd633c6")
 	)
 	(wire
 		(pts
@@ -4562,6 +4552,16 @@
 			(type default)
 		)
 		(uuid "d04e31f1-148a-4876-9548-fd97bbcd381c")
+	)
+	(wire
+		(pts
+			(xy 76.2 165.1) (xy 86.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21a7170-cfa9-4534-851f-dde07d85cca2")
 	)
 	(wire
 		(pts
@@ -4645,6 +4645,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 165.1) (xy 93.98 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7aaf24b-ca12-4902-a181-bf04a60f4c0b")
+	)
+	(wire
+		(pts
 			(xy 85.09 46.99) (xy 85.09 48.26)
 		)
 		(stroke
@@ -4652,16 +4662,6 @@
 			(type default)
 		)
 		(uuid "e7dae663-6dd1-408e-8071-e523fa41e3b3")
-	)
-	(wire
-		(pts
-			(xy 96.52 162.56) (xy 93.98 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb925210-a8d5-41a4-84fd-e12e0c1bc924")
 	)
 	(wire
 		(pts
@@ -4784,6 +4784,54 @@
 		(uuid "11b4af5e-d18e-4c62-93a2-e2941bac887d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.34 96.4376 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 243.84 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "172b5a97-af6f-41f4-b3f4-90888ffb7618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.3753 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IR_1"
+		(shape input)
+		(at 96.52 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2896b5ba-1bb1-44ee-b0c1-659eab6f361e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.5571 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,6 +5011,30 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape input)
+		(at 243.84 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65a112b2-d319-4b70-9a6b-fb3391bf6c51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.6777 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FAN2"
 		(shape input)
 		(at 86.36 107.95 270)
@@ -5120,30 +5192,6 @@
 		(uuid "97f55d80-8965-49bb-baa5-ee31e8cc3f56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 266.7823 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IR_1"
-		(shape input)
-		(at 96.52 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "988c9261-a52e-45ab-bd68-529a46614972")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5571 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,30 +5395,6 @@
 			)
 		)
 	)
-	(global_label "TX"
-		(shape input)
-		(at 243.84 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e854a810-c59e-4115-b938-cbf47811b0ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.6777 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IR_C"
 		(shape input)
 		(at 234.95 55.88 180)
@@ -5464,30 +5488,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "RX"
-		(shape input)
-		(at 243.84 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb9d2e6d-dfc1-4374-b41f-db6cd6c43f2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.3753 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7974,85 +7974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 90.17 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79a8a322-8e0b-4767-8686-800214da8191")
-		(property "Reference" "R9"
-			(at 90.17 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68R"
-			(at 90.17 159.766 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 90.17 164.338 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e887eafb-3aba-48ea-9fc1-5e2b697ffd3b")
-		)
-		(pin "2"
-			(uuid "b6d94028-5e19-4577-8282-cbc92979672e")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 50.8 74.93 0)
 		(unit 1)
@@ -10379,6 +10300,85 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc83203f-b933-479f-9793-80591431687e")
+		(property "Reference" "R9"
+			(at 90.17 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68R"
+			(at 90.17 162.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 90.17 166.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1201f4a6-eda4-439a-bcc5-01f7d0ed2d38")
+		)
+		(pin "2"
+			(uuid "7986e0a0-1cf6-4d32-8a76-d9262adea3c1")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "R9")
 					(unit 1)
 				)
 			)
