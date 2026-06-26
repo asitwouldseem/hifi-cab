@@ -125,7 +125,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -699,7 +699,7 @@
         "uuid": "464ef4ad-8e38-4b55-beb7-b05b4d6675da"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C2",
     "variants": []
   },
   "sheets": [

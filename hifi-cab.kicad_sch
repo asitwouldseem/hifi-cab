@@ -1342,6 +1342,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -3564,6 +3719,12 @@
 		(uuid "4d0876f0-be22-4f83-b0c9-75017175d8a1")
 	)
 	(junction
+		(at 85.09 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50759946-dda2-4ba5-9fbc-e4accfa3b04b")
+	)
+	(junction
 		(at 86.36 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3574,6 +3735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "587e11a6-fe2f-4c2b-a2ae-8c10c89e69f7")
+	)
+	(junction
+		(at 80.01 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af4286d-e81b-4bdd-8c87-00813c66ea29")
 	)
 	(junction
 		(at 261.62 40.64)
@@ -3815,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 162.56) (xy 85.09 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e72cbd5-d339-4103-8652-d1eda3c3df25")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 137.16 63.5)
 		)
 		(stroke
@@ -3975,6 +4152,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 177.8) (xy 85.09 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a538867-f05e-417a-a611-4f8558261620")
+	)
+	(wire
+		(pts
 			(xy 34.29 48.26) (xy 34.29 49.53)
 		)
 		(stroke
@@ -4095,6 +4282,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 177.8) (xy 80.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5773d8cf-1b6a-4bcd-a242-4abe4e306135")
+	)
+	(wire
+		(pts
 			(xy 261.62 40.64) (xy 261.62 43.18)
 		)
 		(stroke
@@ -4212,6 +4409,16 @@
 			(type default)
 		)
 		(uuid "78582192-0a9d-412f-86d3-975b0b4ffcb7")
+	)
+	(wire
+		(pts
+			(xy 80.01 177.8) (xy 80.01 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a06a048-bd72-45fc-a1e9-8ad9bbc12534")
 	)
 	(wire
 		(pts
@@ -4372,6 +4579,16 @@
 			(type default)
 		)
 		(uuid "9f13248a-092b-4201-a27e-dcdfef1d15c3")
+	)
+	(wire
+		(pts
+			(xy 80.01 165.1) (xy 90.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d88613-8a55-495a-a8b7-3c472caf7e77")
 	)
 	(wire
 		(pts
@@ -4555,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 165.1) (xy 86.36 165.1)
+			(xy 76.2 165.1) (xy 80.01 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4645,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 165.1) (xy 93.98 165.1)
+			(xy 100.33 165.1) (xy 97.79 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +5014,7 @@
 	)
 	(global_label "IR_1"
 		(shape input)
-		(at 96.52 165.1 0)
+		(at 100.33 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4807,7 +5024,7 @@
 		)
 		(uuid "2896b5ba-1bb1-44ee-b0c1-659eab6f361e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5571 165.1 0)
+			(at 107.3671 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,6 +8717,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 85.09 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e74d9a0-5bde-4e0a-b5d8-123312fe779c")
+		(property "Reference" "C2"
+			(at 88.9 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 88.9 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 86.0552 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccfb94be-8135-40e2-8c79-87e323bf7465")
+		)
+		(pin "2"
+			(uuid "4860a59c-bc34-4ca0-9562-2fc1872a6243")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 173.99 0)
 		(unit 1)
@@ -9769,7 +10068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 195.2752 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10606,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 165.1 90)
+		(at 93.98 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10317,7 +10616,7 @@
 		(dnp no)
 		(uuid "fc83203f-b933-479f-9793-80591431687e")
 		(property "Reference" "R9"
-			(at 90.17 160.02 90)
+			(at 93.98 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10327,7 +10626,7 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 90.17 162.306 90)
+			(at 93.98 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10337,7 +10636,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 90.17 166.878 90)
+			(at 93.98 166.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10348,7 +10647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 165.1 0)
+			(at 93.98 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,7 +10658,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 165.1 0)
+			(at 93.98 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
