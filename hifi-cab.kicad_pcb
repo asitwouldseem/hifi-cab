@@ -3075,7 +3075,7 @@
 				)
 			)
 		)
-		(property "Value" "esp32-wemos-d1-mini"
+		(property "Value" "ESP32 D1 MINI"
 			(at 0 -1.27 0)
 			(layer "F.SilkS")
 			(uuid "0c98ec4d-c4d6-43aa-b9af-e4a0a16da010")
