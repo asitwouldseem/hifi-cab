@@ -7839,7 +7839,7 @@
 				)
 			)
 		)
-		(property "Value" "--"
+		(property "Value" "68R"
 			(at 199.39 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
