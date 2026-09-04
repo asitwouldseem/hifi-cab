@@ -3289,6 +3289,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 220.98 13.97)
+		(end 283.21 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7b6f1508-71e4-4da5-bb46-ba968adca104")
+	)
+	(text "POWER RAILS"
+		(exclude_from_sim no)
+		(at 251.714 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28829c03-2185-44dd-96b3-797b732fb8a1")
+	)
 	(junction
 		(at 30.48 22.86)
 		(diameter 0)
@@ -3302,46 +3324,16 @@
 		(uuid "165de0c1-09d4-41a0-893e-fe285881c26a")
 	)
 	(junction
-		(at 326.39 214.63)
+		(at 274.32 25.2447)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18f5f676-2a94-4ba8-8fb9-4190544aa041")
+		(uuid "16d58310-5e7e-45f5-9c59-49b65362dc78")
 	)
 	(junction
 		(at 30.48 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2973dd8f-69a6-45cd-81bb-bd1e780be640")
-	)
-	(junction
-		(at 344.17 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dca7c0e-53cf-4509-afa1-56d0ca9eef5f")
-	)
-	(junction
-		(at 378.46 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41e5d4f9-1b5f-4b27-8c7c-5f885f63e53b")
-	)
-	(junction
-		(at 339.09 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bb3ed30-59c8-4124-a38d-e9affb6288e6")
-	)
-	(junction
-		(at 334.01 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d0876f0-be22-4f83-b0c9-75017175d8a1")
-	)
-	(junction
-		(at 407.67 74.7747)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ff29aa8-0434-46e9-9442-a61b7429679c")
 	)
 	(junction
 		(at 113.03 49.53)
@@ -3356,16 +3348,22 @@
 		(uuid "6a909c11-a36e-442f-ae1b-570ea1c96bed")
 	)
 	(junction
-		(at 347.98 130.81)
+		(at 68.58 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e041083-a90d-4acc-8a38-54d0d64f048d")
 	)
 	(junction
-		(at 378.46 83.82)
+		(at 245.11 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84886e3f-dc50-49d5-948a-cd8550ce9b53")
+		(uuid "8c0aef62-5183-4318-8543-2effdf6bc8c3")
+	)
+	(junction
+		(at 105.41 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93629904-3c40-4657-974c-aebb85eb0b7d")
 	)
 	(junction
 		(at 38.1 49.53)
@@ -3374,10 +3372,10 @@
 		(uuid "a3a384e4-51bd-4b5b-9fe7-115cba3f8a59")
 	)
 	(junction
-		(at 322.58 82.55)
+		(at 247.65 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a40c79ed-94d8-4fa5-a350-a9545e74c984")
+		(uuid "a9c73889-19b7-4288-a880-b6889936ee30")
 	)
 	(junction
 		(at 17.78 22.86)
@@ -3392,10 +3390,28 @@
 		(uuid "b56c51c6-dbb5-4429-9cd5-f8252357ba7c")
 	)
 	(junction
+		(at 245.11 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6cbb3bd-fe24-4eb8-bfb5-513d9cce555c")
+	)
+	(junction
+		(at 180.34 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc0d4f2-d729-4e5d-b48a-28e6772a79c2")
+	)
+	(junction
 		(at 193.04 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3154aed-202c-4312-95d3-8aed868bfb26")
+	)
+	(junction
+		(at 236.22 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f04c33bd-ce7a-4130-badf-4881db2bc492")
 	)
 	(junction
 		(at 187.96 49.53)
@@ -3404,104 +3420,12 @@
 		(uuid "fc318c5b-dabc-454c-8918-ec9b8a4d5fa6")
 	)
 	(no_connect
-		(at 321.31 171.45)
-		(uuid "1ce2218f-f691-4506-9bc3-61f95c2d4d7f")
-	)
-	(no_connect
-		(at 321.31 128.27)
-		(uuid "278e4874-43bb-4103-b488-be6872e95d9b")
-	)
-	(no_connect
-		(at 347.98 153.67)
-		(uuid "425a133e-6738-4afa-9962-c7d7103594b0")
-	)
-	(no_connect
-		(at 321.31 138.43)
-		(uuid "4557e510-7544-4647-b901-b7cfdaf6f9d4")
-	)
-	(no_connect
-		(at 321.31 163.83)
-		(uuid "4a542ef2-03e2-4c76-a8bb-2e6c916e8441")
-	)
-	(no_connect
 		(at 209.55 96.52)
 		(uuid "4aa4cb94-1030-4fe0-b2e8-90c5b99cebac")
 	)
 	(no_connect
-		(at 321.31 125.73)
-		(uuid "4fbd05db-171b-4ae8-aa72-5f0f55916e50")
-	)
-	(no_connect
-		(at 347.98 135.89)
-		(uuid "51d1d8d3-eb36-4e78-8af5-6c23932511a4")
-	)
-	(no_connect
 		(at 134.62 96.52)
 		(uuid "5a6369fa-a097-4e0d-b68d-0625ac03f290")
-	)
-	(no_connect
-		(at 321.31 166.37)
-		(uuid "5e02a1e6-c1a5-4443-af40-00641d475d43")
-	)
-	(no_connect
-		(at 321.31 184.15)
-		(uuid "64dbc14a-7425-4a70-8be9-1f4f337ad711")
-	)
-	(no_connect
-		(at 347.98 156.21)
-		(uuid "7e25dc93-20be-4ac3-961c-7e57c4acdedb")
-	)
-	(no_connect
-		(at 321.31 156.21)
-		(uuid "8438f135-eb04-427b-b02d-6462c568ad8b")
-	)
-	(no_connect
-		(at 321.31 146.05)
-		(uuid "8cdd3427-d982-46f9-8882-146716463b00")
-	)
-	(no_connect
-		(at 321.31 148.59)
-		(uuid "8e37b760-024e-44a7-8155-dee7d0f83566")
-	)
-	(no_connect
-		(at 321.31 173.99)
-		(uuid "8f9d76b5-976e-496e-9b93-404831c4ce3c")
-	)
-	(no_connect
-		(at 321.31 123.19)
-		(uuid "90312992-4e06-4a9e-8353-30538223f41a")
-	)
-	(no_connect
-		(at 347.98 163.83)
-		(uuid "9cfc7090-380d-4205-84ee-5003a0cb0027")
-	)
-	(no_connect
-		(at 347.98 161.29)
-		(uuid "bfae87e3-4ca6-491a-9ecb-5b5a8d02ee91")
-	)
-	(no_connect
-		(at 347.98 158.75)
-		(uuid "c1e4e9ec-ba49-4b01-91e7-788972fb3bb6")
-	)
-	(no_connect
-		(at 321.31 135.89)
-		(uuid "cbf2959e-52d5-43e3-a9b9-6220a0e1e83d")
-	)
-	(no_connect
-		(at 347.98 148.59)
-		(uuid "cd5dca99-bf87-413b-bca2-f39601cc7d14")
-	)
-	(no_connect
-		(at 347.98 123.19)
-		(uuid "dd309d9b-f845-40b1-b8b2-4676eb9ad990")
-	)
-	(no_connect
-		(at 347.98 151.13)
-		(uuid "ea5da4ba-7b11-4e0d-89bf-8e01218c6c7c")
-	)
-	(no_connect
-		(at 321.31 179.07)
-		(uuid "f6b0ceba-af8d-4f83-b352-55f7a80040d6")
 	)
 	(no_connect
 		(at 59.69 96.52)
@@ -3529,6 +3453,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 129.54) (xy 247.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d36d1e-9683-49b7-986d-b846b30f5b45")
+	)
+	(wire
+		(pts
 			(xy 30.48 88.9) (xy 44.45 88.9)
 		)
 		(stroke
@@ -3539,13 +3473,13 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 78.74) (xy 322.58 82.55)
+			(xy 236.22 36.83) (xy 237.49 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07da4ab3-1b48-40b8-9c34-61de58fd319c")
+		(uuid "0bb7c9bb-7225-42d2-847e-4a2c40df0012")
 	)
 	(wire
 		(pts
@@ -3569,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 87.63) (xy 322.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10600fec-3749-4ac6-8600-6798a470fd76")
-	)
-	(wire
-		(pts
 			(xy 115.57 39.37) (xy 115.57 38.1)
 		)
 		(stroke
@@ -3589,13 +3513,13 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 87.63) (xy 318.77 87.63)
+			(xy 236.22 125.73) (xy 236.22 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "173239d2-7698-444e-b9bd-223972ba3102")
+		(uuid "12f92452-185e-40ef-b2cb-9c56bd8e1c90")
 	)
 	(wire
 		(pts
@@ -3609,17 +3533,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 240.03) (xy 349.25 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f90e7d1-6c14-49f7-87db-964bfdeff2fb")
-	)
-	(wire
-		(pts
-			(xy 347.98 125.73) (xy 359.41 125.73)
+			(xy 68.58 129.54) (xy 80.01 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3649,16 +3563,6 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 83.82) (xy 407.67 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24be2b58-fc0e-4b48-8684-8ccdd49d441d")
-	)
-	(wire
-		(pts
 			(xy 151.13 88.9) (xy 156.21 88.9)
 		)
 		(stroke
@@ -3669,7 +3573,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 130.81) (xy 359.41 130.81)
+			(xy 68.58 134.62) (xy 80.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3709,16 +3613,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 214.63) (xy 341.63 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3145dfd1-727e-4aeb-af54-91e3dead8f3b")
-	)
-	(wire
-		(pts
 			(xy 43.18 38.1) (xy 43.18 64.77)
 		)
 		(stroke
@@ -3726,6 +3620,16 @@
 			(type default)
 		)
 		(uuid "331e296c-b2a2-4f46-8198-e8da9a2fb003")
+	)
+	(wire
+		(pts
+			(xy 271.78 34.29) (xy 274.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347ebfd0-fa7a-4776-95d2-f8adadc12010")
 	)
 	(wire
 		(pts
@@ -3739,23 +3643,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 223.52) (xy 339.09 223.52)
+			(xy 236.22 134.62) (xy 232.41 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3929082b-e8d1-49b7-871a-4aa52f52df71")
-	)
-	(wire
-		(pts
-			(xy 378.46 74.93) (xy 378.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bca37ac-2a99-4e50-b256-cf0dde868b8b")
+		(uuid "39eb2217-861e-467c-baef-87e33dcda04a")
 	)
 	(wire
 		(pts
@@ -3779,13 +3673,13 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 92.71) (xy 322.58 99.06)
+			(xy 236.22 134.62) (xy 236.22 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ef3e19c-d48d-4c9a-8770-014e89e9d12a")
+		(uuid "43c004eb-dfd8-4c06-82c2-4a05bf6f3871")
 	)
 	(wire
 		(pts
@@ -3796,16 +3690,6 @@
 			(type default)
 		)
 		(uuid "465ef2bf-22a6-44a0-b962-52e0ce781257")
-	)
-	(wire
-		(pts
-			(xy 356.87 240.03) (xy 360.68 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e0dbe0-2cdc-4a2e-bb2c-6311d9dc3199")
 	)
 	(wire
 		(pts
@@ -3869,17 +3753,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 83.82) (xy 384.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2dec84-f41f-4d3e-b4ac-f0c8295635af")
-	)
-	(wire
-		(pts
-			(xy 347.98 130.81) (xy 347.98 133.35)
+			(xy 68.58 134.62) (xy 68.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3919,13 +3793,23 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 125.73) (xy 359.41 119.38)
+			(xy 80.01 129.54) (xy 80.01 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67067822-9d87-4e7c-b05f-dd91f32e0d7b")
+	)
+	(wire
+		(pts
+			(xy 261.62 41.91) (xy 261.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6851fc50-343e-4b0b-a658-bb7673f38074")
 	)
 	(wire
 		(pts
@@ -3959,6 +3843,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 25.4) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b61e4a8-7bee-41e0-803b-ca35c5e9d8c1")
+	)
+	(wire
+		(pts
 			(xy 187.96 49.53) (xy 187.96 99.06)
 		)
 		(stroke
@@ -3979,16 +3873,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 73.66) (xy 407.67 74.7747)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7147f26a-2d4a-48a7-a274-b1bfa06b7067")
-	)
-	(wire
-		(pts
 			(xy 59.69 88.9) (xy 66.04 88.9)
 		)
 		(stroke
@@ -3999,17 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 86.36) (xy 370.84 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7446af7b-7184-4f58-bd48-e2447c1db4a0")
-	)
-	(wire
-		(pts
-			(xy 347.98 128.27) (xy 347.98 130.81)
+			(xy 68.58 132.08) (xy 68.58 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4029,16 +3903,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 86.36) (xy 370.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac80338-3020-4031-97fc-3d77f1fee379")
-	)
-	(wire
-		(pts
 			(xy 134.62 88.9) (xy 140.97 88.9)
 		)
 		(stroke
@@ -4046,16 +3910,6 @@
 			(type default)
 		)
 		(uuid "7b88a571-f55d-40f1-b42d-cddd235856d8")
-	)
-	(wire
-		(pts
-			(xy 344.17 209.55) (xy 344.17 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db3d26e-dd5f-4dd2-8a0c-9ee868ce1643")
 	)
 	(wire
 		(pts
@@ -4069,16 +3923,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 82.55) (xy 334.01 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dccd9d3-d79e-456f-9986-52d12d756d44")
-	)
-	(wire
-		(pts
 			(xy 105.41 77.47) (xy 105.41 88.9)
 		)
 		(stroke
@@ -4086,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "7f185edb-54b4-4a59-a82a-2dbcaa129715")
-	)
-	(wire
-		(pts
-			(xy 326.39 204.47) (xy 326.39 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2c2286-dacf-467c-8f7e-b0290e01b3b8")
 	)
 	(wire
 		(pts
@@ -4149,16 +3983,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 214.63) (xy 341.63 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90191fb5-869a-44ac-87b2-613ffb3fec60")
-	)
-	(wire
-		(pts
 			(xy 156.21 88.9) (xy 156.21 91.44)
 		)
 		(stroke
@@ -4189,13 +4013,13 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 90.17) (xy 334.01 90.17)
+			(xy 180.34 22.86) (xy 180.34 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f13248a-092b-4201-a27e-dcdfef1d15c3")
+		(uuid "9ea3ef4e-bbf2-4cce-8cd1-5c9770c9ddf8")
 	)
 	(wire
 		(pts
@@ -4216,6 +4040,16 @@
 			(type default)
 		)
 		(uuid "a1eb34ff-6056-44cf-9801-90a082a7a027")
+	)
+	(wire
+		(pts
+			(xy 236.22 34.29) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a240b000-2442-4786-97e4-09fbc31b0665")
 	)
 	(wire
 		(pts
@@ -4259,6 +4093,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 25.2447) (xy 274.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa23bb85-c036-407f-b768-da6dd21a124b")
+	)
+	(wire
+		(pts
 			(xy 113.03 49.53) (xy 113.03 99.06)
 		)
 		(stroke
@@ -4266,16 +4110,6 @@
 			(type default)
 		)
 		(uuid "ac3a1317-5e47-4250-acf9-6bc9df3201bd")
-	)
-	(wire
-		(pts
-			(xy 334.01 90.17) (xy 342.9 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac598552-9c68-442a-ac93-e476247d884e")
 	)
 	(wire
 		(pts
@@ -4289,13 +4123,13 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 91.44) (xy 394.97 101.6)
+			(xy 237.49 36.83) (xy 237.49 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b162253c-2d54-47aa-82b5-e89c247a1fae")
+		(uuid "afb4903a-cad7-446c-b3e3-b94e6f981307")
 	)
 	(wire
 		(pts
@@ -4319,6 +4153,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 139.7) (xy 236.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b290c460-139b-4ba2-8a4a-e76b523bcadf")
+	)
+	(wire
+		(pts
 			(xy 30.48 39.37) (xy 40.64 39.37)
 		)
 		(stroke
@@ -4339,6 +4183,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 24.13) (xy 274.32 25.2447)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6eb4dae-4aee-49c4-ab97-caee8be51cb8")
+	)
+	(wire
+		(pts
 			(xy 146.05 101.6) (xy 160.02 101.6)
 		)
 		(stroke
@@ -4349,13 +4203,13 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 92.71) (xy 318.77 92.71)
+			(xy 245.11 34.29) (xy 251.46 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be0efdc6-544e-4119-8baf-0b0009aeadb9")
+		(uuid "b93f49be-563e-41fe-a457-9a7777377854")
 	)
 	(wire
 		(pts
@@ -4379,13 +4233,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 214.63) (xy 326.39 215.9)
+			(xy 105.41 22.86) (xy 180.34 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1feb69d-5f3c-48c3-a577-b5ce1509b7e9")
+		(uuid "c1b22891-2ec2-4dc8-a639-cce9a5b5e05d")
 	)
 	(wire
 		(pts
@@ -4409,6 +4263,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 139.7) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c348ec2b-f4ab-4265-a3eb-e16f82b01178")
+	)
+	(wire
+		(pts
 			(xy 30.48 22.86) (xy 30.48 39.37)
 		)
 		(stroke
@@ -4419,13 +4283,13 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 209.55) (xy 346.71 224.79)
+			(xy 247.65 137.16) (xy 256.54 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4f99b4d-f33f-47c9-85ad-7b55087901cd")
+		(uuid "c4864fe8-50a3-4f43-970a-ab319ed7f5f4")
 	)
 	(wire
 		(pts
@@ -4459,16 +4323,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 74.7747) (xy 407.67 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0fb866-a25d-4332-8423-b03586aab7b9")
-	)
-	(wire
-		(pts
 			(xy 167.64 101.6) (xy 173.99 101.6)
 		)
 		(stroke
@@ -4479,53 +4333,13 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 83.82) (xy 378.46 83.82)
+			(xy 232.41 137.16) (xy 247.65 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d07110ad-a4e6-45c5-b9fa-4fdf9ed84687")
-	)
-	(wire
-		(pts
-			(xy 339.09 223.52) (xy 339.09 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47c926e-3d70-4a65-8368-4bfeba759333")
-	)
-	(wire
-		(pts
-			(xy 360.68 240.03) (xy 360.68 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3d25df-174f-4108-940b-4a3918a90529")
-	)
-	(wire
-		(pts
-			(xy 339.09 209.55) (xy 339.09 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df47d2d3-831b-408a-b307-88b6bace0774")
-	)
-	(wire
-		(pts
-			(xy 378.46 73.66) (xy 378.46 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0525ab9-cd3a-4b0f-96d9-19443a999e60")
+		(uuid "d155184e-0dbe-44a8-880f-272d5f8c4b54")
 	)
 	(wire
 		(pts
@@ -4569,16 +4383,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 240.03) (xy 344.17 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e57652-2129-4940-ac4e-4f91d102900c")
-	)
-	(wire
-		(pts
 			(xy 71.12 96.52) (xy 71.12 101.6)
 		)
 		(stroke
@@ -4619,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 130.81) (xy 359.41 137.16)
+			(xy 80.01 134.62) (xy 80.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4656,6 +4460,16 @@
 			(type default)
 		)
 		(uuid "f0c93efe-1019-4ae5-9026-d461430c4bd3")
+	)
+	(wire
+		(pts
+			(xy 245.11 24.13) (xy 245.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd429e92-32a1-4b8a-b294-5b0dfbce9a21")
 	)
 	(wire
 		(pts
@@ -4739,19 +4553,19 @@
 			)
 		)
 	)
-	(global_label "TACH3"
+	(global_label "DS18B20"
 		(shape input)
-		(at 321.31 168.91 180)
+		(at 256.54 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "1a1e3215-0411-4b96-8ebc-f675a8774b05")
+		(uuid "2b2de9ee-aec8-41ed-b9dc-d8a27dcb758f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4586 168.91 0)
+			(at 268.1127 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4573,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4784,150 +4598,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "TACH1"
-		(shape input)
-		(at 321.31 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38606423-3b29-4fd8-aaf7-40f493da8abc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4586 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DS18B20"
-		(shape input)
-		(at 321.31 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c9be007-08ee-4790-a0ee-0574c0661581")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.7373 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN2_C"
-		(shape input)
-		(at 321.31 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50ba35d3-0527-4063-9aae-eaaa9d9f0cf4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.37 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN3"
-		(shape input)
-		(at 339.09 224.79 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51c529a2-2642-42f6-bbcb-204329f52def")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.09 232.4924 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IR_C"
-		(shape input)
-		(at 321.31 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a8778b9-0150-421a-96b2-3b3a4329ed7e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.2124 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TACH3"
-		(shape input)
-		(at 344.17 243.84 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8846e6db-15e8-49ec-b3f1-ee9d28159891")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.17 252.6914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4968,102 +4638,6 @@
 		(uuid "8cb7f541-1438-466c-8cc8-277cd4f08ecc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.11 77.4314 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RPM3"
-		(shape input)
-		(at 321.31 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "928b9014-af3d-4122-9505-c438240611d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.1239 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RPM2"
-		(shape input)
-		(at 321.31 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6b19304-bf8d-4587-93e1-b27b60cdd503")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.1239 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FAN3_C"
-		(shape input)
-		(at 321.31 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bdda8583-5282-44c3-96d1-82fe0a25082f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TACH2"
-		(shape input)
-		(at 321.31 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbf76c9b-e741-40d3-840d-7f0ac098173d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4586 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,54 +4697,6 @@
 			)
 		)
 	)
-	(global_label "FAN1_C"
-		(shape input)
-		(at 321.31 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8462e04-d348-44d8-b92b-83f6ef5f1aa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.37 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RPM1"
-		(shape input)
-		(at 321.31 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ebac1c69-a792-4354-ab39-6a559fc9bdab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.1239 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RELAY3"
 		(shape input)
 		(at 248.92 101.6 0)
@@ -5192,54 +4718,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "DS18B20"
-		(shape input)
-		(at 342.9 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9d611cf-f24b-4e25-bb28-32dd50a9f188")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.4727 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RPM3"
-		(shape input)
-		(at 346.71 224.79 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe4dbf4e-c810-4b91-a14f-007758971eaf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 346.71 232.9761 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5322,8 +4800,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 341.63 204.47 90)
+		(lib_id "power:PWR_FLAG")
+		(at 245.11 25.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5332,9 +4810,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01dca9f1-9786-4fa1-9417-30cd271ecaa3")
-		(property "Reference" "J4"
-			(at 342.9 198.12 90)
+		(uuid "0111cd80-9534-4673-9f31-21a239d31e7a")
+		(property "Reference" "#FLG01"
+			(at 243.205 25.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5343,18 +4822,20 @@
 				)
 			)
 		)
-		(property "Value" "FAN 3"
-			(at 342.9 200.66 90)
+		(property "Value" "PWR_FLAG"
+			(at 241.3 25.3999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
-			(at 341.63 204.47 0)
+		(property "Footprint" ""
+			(at 245.11 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 204.47 0)
+			(at 245.11 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,8 +4856,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 341.63 204.47 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 245.11 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5387,29 +4868,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e712851-b7ae-4dd5-8499-90a07b04590c")
-		)
-		(pin "2"
-			(uuid "65ccab04-9584-4d18-b038-a6e3097f02a9")
-		)
-		(pin "3"
-			(uuid "ad44f5d8-2dde-4c98-8c06-1f62f9b6bace")
-		)
-		(pin "4"
-			(uuid "ab93a7c5-2e26-48d6-933a-399796ce3c60")
+			(uuid "d9a1ae4a-a60b-43c8-acf6-22035093c8c3")
 		)
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "J4")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 359.41 137.16 0)
+		(lib_id "power:PWR_FLAG")
+		(at 274.32 25.2447 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5418,9 +4890,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0cd76a10-67e7-42a7-b2cb-21de8b527671")
-		(property "Reference" "#PWR026"
-			(at 359.41 143.51 0)
+		(uuid "09e65d84-17cb-41ab-a374-68350341dfff")
+		(property "Reference" "#FLG02"
+			(at 272.415 25.2447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,18 +4902,20 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 359.41 142.24 0)
+		(property "Value" "PWR_FLAG"
+			(at 270.51 25.2446 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 137.16 0)
+			(at 274.32 25.2447 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5452,7 +4926,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 137.16 0)
+			(at 274.32 25.2447 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 274.32 25.2447 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb8d1c03-b78f-49d3-91cf-55b2959470ee")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd76a10-67e7-42a7-b2cb-21de8b527671")
+		(property "Reference" "#PWR026"
+			(at 80.01 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 137.16 0)
+			(at 80.01 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,86 +5032,6 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 364.49 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e89d66c-221b-46a2-ab41-f34640e255d0")
-		(property "Reference" "J6"
-			(at 364.49 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR IN"
-			(at 364.49 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 364.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25ac6594-09c3-41ff-abe4-6b9d7f303dfa")
-		)
-		(pin "2"
-			(uuid "bbce979c-8717-4f69-868f-4032c356d690")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5742,84 +5214,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 322.58 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "197a08b9-3708-44cf-a9b4-1ef5a50aeef3")
-		(property "Reference" "#PWR016"
-			(at 322.58 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.58 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a170b1c7-3b80-4613-8782-e0dd6ddcd68b")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 190.5 33.02 90)
 		(unit 1)
@@ -5906,8 +5300,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4004")
-		(at 326.39 219.71 90)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 231.14 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5916,31 +5310,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24067c49-f54e-48ca-8500-3810c6ff78e8")
-		(property "Reference" "D3"
-			(at 328.93 218.4399 90)
+		(uuid "204be989-9ae6-4631-a81a-4f9a8a1c5191")
+		(property "Reference" "J6"
+			(at 231.14 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N4004"
-			(at 328.93 220.9799 90)
+		(property "Value" "PWR IN"
+			(at 231.14 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 330.835 219.71 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 231.14 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,8 +5342,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 326.39 219.71 0)
+		(property "Datasheet" ""
+			(at 231.14 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,8 +5353,8 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 326.39 219.71 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5971,39 +5363,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Device" "D"
-			(at 326.39 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 326.39 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55d32c97-84e6-46ad-acb4-eae6666b8ff4")
 		)
 		(pin "1"
-			(uuid "b669cf23-6a3e-45d1-a986-446115551520")
+			(uuid "ced76eb3-9978-400b-b430-bc35cdf0b2c0")
+		)
+		(pin "2"
+			(uuid "de5aff6b-9ed2-4fb7-bca8-2187f886f706")
 		)
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "D3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6240,88 +5610,6 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 313.69 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39d35817-e2fd-4f9c-b47b-d0802ff21e79")
-		(property "Reference" "J5"
-			(at 313.69 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 313.69 84.328 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 313.69 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 313.69 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40e236d0-4e3a-4ac3-8ce8-b30f96bc77f9")
-		)
-		(pin "2"
-			(uuid "9370170a-c040-4aa6-86bf-f513e9d929e5")
-		)
-		(pin "3"
-			(uuid "8aa4690c-b7e7-4211-8c0a-f47669f6d4dd")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6587,162 +5875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 360.68 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aee24ea-35c6-4c19-b3b7-cad23df550ef")
-		(property "Reference" "#PWR017"
-			(at 360.68 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 360.68 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 360.68 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4f2174b-5dce-44ee-9d12-b066e9d6af8f")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 322.58 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56150310-bada-4929-a20e-cdf5a281c6ad")
-		(property "Reference" "#PWR015"
-			(at 322.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 322.58 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 322.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30e63b2a-8c06-49a4-884b-39c7570e3f78")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 17.78 104.14 0)
 		(unit 1)
@@ -6815,6 +5947,84 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "578da580-fffd-45e0-8914-58b7fc4964e0")
+		(property "Reference" "#PWR018"
+			(at 237.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d623dd8-bc73-445d-940a-3ab2511f5948")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7005,7 +6215,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 359.41 119.38 0)
+		(at 80.01 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7016,7 +6226,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f1bab19-7d84-402c-a8fa-c2ee25a19cc7")
 		(property "Reference" "#PWR025"
-			(at 359.41 123.19 0)
+			(at 80.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,7 +6237,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 359.41 114.3 0)
+			(at 80.01 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7037,7 +6247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 119.38 0)
+			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 119.38 0)
+			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +6269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 359.41 119.38 0)
+			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,6 +6370,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 247.65 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7970dfb9-a59b-49ba-b251-80baebb05622")
+		(property "Reference" "R13"
+			(at 250.19 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4K7"
+			(at 250.19 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 249.428 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28a54f55-80d4-4ea7-9d2d-8217ac1d6434")
+		)
+		(pin "2"
+			(uuid "5a361bde-b68f-42ac-bf42-f4e6ef99fa87")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 146.05 91.44 90)
 		(unit 1)
@@ -7246,8 +6538,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 370.84 101.6 0)
+		(lib_id "power:+3.3V")
+		(at 236.22 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7256,9 +6548,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83c9a414-64a1-4954-ac81-c0603f5b9898")
-		(property "Reference" "#PWR018"
-			(at 370.84 107.95 0)
+		(uuid "7ff44208-6d5e-4341-8042-8b91f1233fe4")
+		(property "Reference" "#PWR015"
+			(at 236.22 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7268,8 +6560,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 370.84 106.68 0)
+		(property "Value" "+3.3V"
+			(at 236.22 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7279,7 +6571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 101.6 0)
+			(at 236.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +6582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 101.6 0)
+			(at 236.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,8 +6592,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 236.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7312,12 +6604,96 @@
 			)
 		)
 		(pin "1"
-			(uuid "eba270e0-9934-41dd-8123-f72bab88fd64")
+			(uuid "b9d1064b-4e85-41cd-bd28-ea7afae3e798")
 		)
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR018")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:TSR0.5-2433")
+		(at 261.62 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8429d144-cb34-4012-b9d3-586c605b4212")
+		(property "Reference" "U1"
+			(at 261.62 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSR0.5-2433"
+			(at 261.62 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT"
+			(at 261.62 42.926 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tsr0.5.pdf"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.5A step-down regulator, fixed 3.3V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
+			(at 261.62 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de1a7e68-f6ac-4b6c-81b2-aad5b0c8e026")
+		)
+		(pin "3"
+			(uuid "bd041a0b-dc57-4f68-a16d-6785e7915880")
+		)
+		(pin "2"
+			(uuid "99a9c575-021f-449a-8fd4-de083fef3562")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7568,6 +6944,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 236.22 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a04b16c9-ecdd-4431-a683-e5cd559b205e")
+		(property "Reference" "#PWR016"
+			(at 236.22 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebdf2ca2-f15d-4b0f-8468-965c3aad3e91")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 274.32 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fe4696-f662-4681-a907-addc9e48d920")
+		(property "Reference" "#PWR022"
+			(at 274.32 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 274.32 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 274.32 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "300c3de8-592e-4728-916e-118ed3ac3f26")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:Relay_SPDT")
 		(at 127 93.98 270)
 		(unit 1)
@@ -7658,8 +7190,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 353.06 240.03 90)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 227.33 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7667,10 +7199,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2c69b2c-9869-4d9a-9ef5-5e96e1a8ef26")
-		(property "Reference" "R12"
-			(at 353.06 233.68 90)
+		(uuid "ad388897-02ab-42a0-b539-f99422e0720e")
+		(property "Reference" "J5"
+			(at 227.33 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7679,8 +7210,8 @@
 				)
 			)
 		)
-		(property "Value" "680R"
-			(at 353.06 236.22 90)
+		(property "Value" "DS18B20"
+			(at 227.33 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7689,8 +7220,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 353.06 241.808 90)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +7232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 240.03 0)
+			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,8 +7242,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 353.06 240.03 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,17 +7252,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "8744426b-c722-4179-8cf0-daa920af2cc1")
 		)
 		(pin "1"
-			(uuid "108de296-ef1e-4ade-9211-69ec5f74cf42")
+			(uuid "958348f2-bf3e-4c40-b879-fb73cf84142e")
+		)
+		(pin "2"
+			(uuid "bb701d11-ffe7-4d80-9d48-dab3d734af88")
+		)
+		(pin "3"
+			(uuid "6b78e32a-1ba3-4e0a-a8ba-5796971c04a9")
 		)
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "R12")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7739,7 +7273,7 @@
 	)
 	(symbol
 		(lib_id "esp32-wemos-d1-mini:esp32-wemos-d1-mini")
-		(at 334.01 120.65 0)
+		(at 54.61 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7750,7 +7284,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3e3b553-7ec1-4d77-8f23-b03c27d2cd49")
 		(property "Reference" "U2"
-			(at 334.645 116.84 0)
+			(at 55.245 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7759,8 +7293,8 @@
 				)
 			)
 		)
-		(property "Value" "esp32-wemos-d1-mini"
-			(at 334.645 119.38 0)
+		(property "Value" "ESP32 D1 MINI"
+			(at 55.245 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7770,7 +7304,7 @@
 			)
 		)
 		(property "Footprint" "esp32-wemos-d1-mini:esp32-wemos-d1-mini"
-			(at 337.82 118.11 0)
+			(at 58.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7781,7 +7315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 118.11 0)
+			(at 58.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7792,7 +7326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 120.65 0)
+			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7926,6 +7460,84 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b40e237d-a8a8-487c-8f5c-2178efa572b1")
+		(property "Reference" "#PWR021"
+			(at 261.62 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d77f9f0-e51c-45fe-9867-bb86cedb273e")
+		)
+		(instances
+			(project "hifi-cab"
+				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8176,168 +7788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Converter_DCDC:TSR0.5-2433")
-		(at 394.97 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6ed22ee-74d8-4be8-a590-202e36ba27ae")
-		(property "Reference" "U1"
-			(at 394.97 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSR0.5-2433"
-			(at 394.97 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT"
-			(at 394.97 92.456 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tsr0.5.pdf"
-			(at 394.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.5A step-down regulator, fixed 3.3V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
-			(at 394.97 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48873064-43b8-4e10-a930-661f93bae382")
-		)
-		(pin "3"
-			(uuid "17e7b736-820c-465e-8808-66ab13e0e759")
-		)
-		(pin "2"
-			(uuid "3ac206ad-ec83-4d59-8be5-f235c5a73784")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 378.46 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc3ca873-478f-44a9-828d-6a7f5029ffa4")
-		(property "Reference" "#PWR019"
-			(at 378.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 378.46 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 378.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5669a849-ade3-45bf-8b27-53a41d232a22")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 40.64 33.02 90)
 		(unit 1)
@@ -8514,84 +7964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 394.97 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d40b5371-fcee-4333-875f-523ce1f2fd88")
-		(property "Reference" "#PWR021"
-			(at 394.97 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 394.97 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 394.97 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 394.97 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a96324a2-f199-49a0-8c5a-42f9aeb974d9")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 209.55 57.15 0)
 		(unit 1)
@@ -8749,84 +8121,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 326.39 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d65d4af2-08d9-4653-a41e-b05b2c60f604")
-		(property "Reference" "#PWR014"
-			(at 326.39 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 326.39 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 326.39 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfc17464-31b7-44f5-8508-00ce0df7b95b")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 30.48 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -8904,8 +8198,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 407.67 73.66 0)
+		(lib_id "power:VCC")
+		(at 245.11 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8914,9 +8208,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1267b22-10b6-4126-8921-971f272e7245")
-		(property "Reference" "#PWR022"
-			(at 407.67 77.47 0)
+		(uuid "e4a65cf1-6270-4f61-909e-9eab4e1f354e")
+		(property "Reference" "#PWR019"
+			(at 245.11 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,8 +8220,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 407.67 68.58 0)
+		(property "Value" "VCC"
+			(at 245.11 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8937,7 +8231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 407.67 73.66 0)
+			(at 245.11 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8948,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 407.67 73.66 0)
+			(at 245.11 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,88 +8252,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 407.67 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b34c0d3-de23-44a0-af53-72e85087a1f0")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 407.67 74.7747 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e25341cf-7153-4226-9247-021d6b218834")
-		(property "Reference" "#FLG02"
-			(at 405.765 74.7747 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 403.86 74.7746 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 407.67 74.7747 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 407.67 74.7747 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 407.67 74.7747 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 245.11 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,94 +8264,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2da28245-9c9c-4ec2-8ec8-65141c7f7c72")
+			(uuid "22c513ab-298a-4d01-a450-29af63dc998f")
 		)
 		(instances
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 334.01 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e512e10d-1300-49c8-a44c-a8cf45207536")
-		(property "Reference" "R13"
-			(at 336.55 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4K7"
-			(at 336.55 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 335.788 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 334.01 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99da5ee5-8b7e-44c9-96f7-37420eff3e53")
-		)
-		(pin "2"
-			(uuid "4884d6f8-9aa3-47d7-b844-433964ee99ed")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "R13")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9300,86 +8432,6 @@
 			(project "hifi-cab"
 				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 378.46 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8b49b5c-4566-462e-aab9-c0eb83abb705")
-		(property "Reference" "#FLG01"
-			(at 376.555 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 374.65 74.9299 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.46 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 378.46 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1ef0ee5-58c0-440d-a98b-58333d4aaf11")
-		)
-		(instances
-			(project "hifi-cab"
-				(path "/464ef4ad-8e38-4b55-beb7-b05b4d6675da"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
