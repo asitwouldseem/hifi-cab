@@ -6953,7 +6953,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 180.34 44.45 90)
+		(at 180.34 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6963,29 +6963,29 @@
 		(dnp no)
 		(uuid "434c1536-9128-4b73-b703-696c1658436b")
 		(property "Reference" "D3"
-			(at 177.8 42.926 90)
+			(at 177.038 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4004"
-			(at 177.8 45.466 90)
+			(at 177.038 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 184.785 44.45 0)
+			(at 175.895 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7290,7 +7290,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 30.48 44.45 90)
+		(at 30.48 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7300,29 +7300,29 @@
 		(dnp no)
 		(uuid "58b67b88-0550-4fd5-9872-e76e329a8ee0")
 		(property "Reference" "D1"
-			(at 27.94 42.926 90)
+			(at 27.94 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4004"
-			(at 27.94 45.466 90)
+			(at 27.94 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 34.925 44.45 0)
+			(at 26.035 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10187,7 +10187,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 105.41 44.45 90)
+		(at 105.41 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10197,29 +10197,29 @@
 		(dnp no)
 		(uuid "f83e0d17-914f-4b90-8667-677a708a3097")
 		(property "Reference" "D2"
-			(at 102.87 42.926 90)
+			(at 101.854 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4004"
-			(at 102.87 45.466 90)
+			(at 101.854 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 109.855 44.45 0)
+			(at 100.965 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
